@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+
+/* End of CSS reset */
+
+
+body{
+    background-color: #ffeedf;
+}
+
+#root{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 62px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    padding: 27px;
+
+    width: 290px;
+    height: 416px;
+    background-color: #fff;
+
+    flex-direction: column;
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    #root{
+        margin: 30px 0 30px 0;
+        
+    }
+}
+
+.container h2{
+    color: #33793f;
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+
+.container h6{
+    color: #999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+
+}
+
+.container p{
+    color: #999;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+
+}
+
+
